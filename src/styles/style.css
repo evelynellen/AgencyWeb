@@ -1,1 +1,41 @@
 @import url("./global.css");
+
+header {
+    display: flex; /*Para que o grupo fique ao lado do outro*/
+    justify-content: space-between; /*Colocar nas extremidades*/
+    align-items: center; /*Alinhar os elementos no centro verticalmente*/
+    padding: 30px; /*Espaçamento interno*/
+    border-bottom: 0.7px solid var(--color-gray-3); /*Borda inferior*/
+}
+
+.container-nav-header {
+    display: flex; /*Para que o grupo fique ao lado do outro*/
+    align-items: center; /*Centraliza na vertical*/
+    gap: 70px; /*Distância entre os elementos do grupo*/
+} 
+
+.navigation-header ul { /*Só vai estilzar as tags UL que estiverem dentro de navigation-header*/
+    display: flex; /*Para que o grupo fique ao lado do outro*/
+    gap: 40px; /*Distância entre os elementos do grupo*/
+    list-style: none; /*Remove a estilização do texto (bolinha)*/
+}
+
+.navigation-header ul li a {
+    text-decoration: none; /*Decoração do texto*/
+    color: var(--color-black); /*Cor do texto*/
+    font-family: var(--font-primary); /*Fonte do texto*/
+} 
+
+.navigation-header ul li .menu-active {
+    color: var(--cor-blue);
+}
+
+.btn-header {
+    font-family: var(--font-primary); /*Fonte do texto*/
+    text-decoration: none; /*Tira a decoração do texto*/
+    background-color: var(--cor-blue); /*Cor de fundo*/
+    color: var(--color-white); /*Cor de texto*/
+    border-radius: 10px; /*Arredondamento das bordas*/
+    padding: 10px 20px; /*Espaçamento interno*/
+    font-weight: var(--font-weight-button); /*Espessura da fonte*/
+}
