@@ -39,3 +39,12 @@ header {
     padding: 10px 20px; /*Espaçamento interno*/
     font-weight: var(--font-weight-button); /*Espessura da fonte*/
 }
+
+
+.main-content{
+    font-family: var(--font-primary);
+}
+
+span {
+    color: var(--cor-blue);
+}
