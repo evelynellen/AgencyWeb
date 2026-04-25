@@ -187,7 +187,6 @@ main{
     gap: 40px; /*Distância entre os elementos*/
 }
 
-
 .service-details {
     display: flex;
     align-items: center;
@@ -222,4 +221,31 @@ main{
     font-family: var(--font-primary); /*Tipo da fonte*/
     width: 445px;
     line-height: 27px;
+}
+
+/* -------------- SECTION-COMPARATION -------------- */
+
+.section-comparation {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-primary); /*Tipo da fonte*/
+    gap: 20px;
+}
+
+.card-benefit {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+    padding: 60px 48px;
+    border-radius: 20px;
+}
+
+.card-benefit p {
+    width: 458px;
+    color: var(--color-gray);
+}
+
+.card-benefit-secondary {
+    background-color: #F4F4F4;
 }
