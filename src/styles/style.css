@@ -112,6 +112,8 @@ main{
     background-color: #e6e6e6;
 }
 
+/*-------------- SECTION-SERVICES --------------*/
+
 .section-services {
     display: grid;
     grid-template-columns:repeat(4, max-content);
@@ -125,7 +127,6 @@ main{
     display: flex;
     align-items: center;
     gap: 15px;
-   
 }
 
 .container-item-services h2 {
@@ -139,4 +140,86 @@ main{
     font-weight: var(--font-weight-caption); /*Espessura da fonte*/
     font-size: var(--font-size-caption);
     color: var(--color-gray-2);
+}
+
+
+/*-------------- SECTION-DETAILS --------------*/
+
+.section-details {
+    display: flex; /*Habilitar o gap*/
+    flex-direction: column; /*Colocar os elementos em coluna*/
+    gap: 80px; /*Distância entre os elementos*/
+    align-items: center; /*Cuida da Horizontal na Flex-direction: column*/
+    padding: 80px;
+}
+
+.details-presentation {
+    display: flex; /*Habilitar o gap*/
+    flex-direction: column; /*Colocar os elementos em coluna*/
+    gap: 30px; /*Distância entre os elementos*/
+    text-align: center; /*Alinhamento do texto no centro*/
+    font-family: var(--font-primary); /*Tipo da fonte*/
+}
+
+.details-presentation h2 {
+    font-size: var(--font-size-h2); /*Tamanho da fonte*/
+    font-family: var(--font-primary); /*Tipo da fonte*/
+    font-weight: var(--font-weight-h2); /*Espessura da fonte*/
+}
+
+.details-presentation p {
+    font-family: var(--font-primary); /*Tipo da fonte*/
+    font-size: var(--font-size-body); /*Tamanho da fonte*/
+    color: var(--color-gray-2); /*Cor da fonte*/
+    width: 665px; /*Largura da caixa de texto*/
+    margin: 0 auto;
+}
+
+.service-description {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.content-service {
+    display: flex; /*Habilitar o gap*/
+    flex-direction: column; /*Colocar em coluna*/
+    gap: 40px; /*Distância entre os elementos*/
+}
+
+
+.service-details {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.service-details div span {
+    font-family: var(--font-primary); /*Tipo da fonte*/
+    font-size: var(--font-size-h4); /*Tamanho da fonte*/
+    font-weight: var(--font-weight-h4); /*Espessura da fonte*/
+}
+
+.service-details div p {
+    font-family: var(--font-primary); /*Tipo da fonte*/
+    font-size: var(--font-size-caption); /*Tamanho da fonte*/
+    color: var(--color-gray-2); /*Cor da fonte*/
+}
+
+.content-service h3 {
+    font-family: var(--font-primary); /*Tipo da fonte*/
+    font-size: var(--font-size-h3); /*Tamanho da fonte*/
+    font-weight: var(--font-weight-h3); /*Espessura da fonte*/
+    width: 420px;
+}
+
+.content-service h3 span{
+    color: var(--color-blue);
+}
+
+.content-service p {
+    color: var(--color-gray);
+    font-family: var(--font-primary); /*Tipo da fonte*/
+    width: 445px;
+    line-height: 27px;
 }
