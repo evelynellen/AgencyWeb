@@ -112,3 +112,31 @@ main{
     background-color: #e6e6e6;
 }
 
+.section-services {
+    display: grid;
+    grid-template-columns:repeat(4, max-content);
+    gap: 25px;
+    justify-content: center;
+    padding: 30px 0;
+    border-bottom: 0.7px solid var(--color-gray-3);
+}
+
+.container-item-services {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+   
+}
+
+.container-item-services h2 {
+    font-family: var(--font-primary); /*Tipo da fonte*/
+    font-weight: var(--font-weight-h4); /*Espessura da fonte*/
+    font-size: var(-font-size-h4);
+}
+
+.container-item-services p {
+    font-family: var(--font-primary); /*Tipo da fonte*/
+    font-weight: var(--font-weight-caption); /*Espessura da fonte*/
+    font-size: var(--font-size-caption);
+    color: var(--color-gray-2);
+}
