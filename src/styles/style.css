@@ -313,3 +313,47 @@ main{
     display: flex;
     gap: 80px;
 }
+
+/* -------------- SECTION-CONTACT -------------- */
+
+.section-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+    padding: 140px;
+    background-color: var(--color-blue-10);
+}
+
+.section-contact h2 {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-h2);
+    text-align: center;
+    width: 478px;
+}
+
+.section-contact form {
+    display: flex;
+    gap: 14px;
+}
+
+.section-contact form input {
+    padding: 20px 35px;
+    width: 532px;
+    border-radius: 10px;
+    font-family: var(--font-primary);
+    font-size: var(--font-size-body);
+    box-shadow: 0 4px 84px 0 rgba(0, 0, 0, 0.07);
+}
+
+.section-contact form button {
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-family: var(--font-primary);
+    background-color: var(--color-black);
+    text-transform: uppercase;
+    color: var(--color-white);
+    font-size: var(--font-size-button);
+    font-weight: var(--font-weight-button);
+}
