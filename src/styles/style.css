@@ -363,6 +363,7 @@ footer {
     gap: 99px;
     justify-content: center;
     padding: 60px 0;
+    font-family: var(--font-primary);
 }
 
 .footer-informations {
@@ -371,6 +372,7 @@ footer {
     gap: 15px;
     align-items: start;
     font-family: var(--font-primary);
+    text-decoration: none;
 }
 
 .footer-informations p {
